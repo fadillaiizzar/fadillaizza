@@ -1,10 +1,10 @@
 import BtnHero from "./BtnHero";
-import TitleHero from "./TextHero";
+import TextHero from "./TextHero";
 
 export default function HeroSection() {
     return(
-        <div className="flex flex-col mt-28 py-5 items-center">
-            <TitleHero />
+        <div className="flex flex-col mt-28 px-7 py-5 items-center text-center">
+            <TextHero />
             <BtnHero
             text="Selengkapnya"
             />

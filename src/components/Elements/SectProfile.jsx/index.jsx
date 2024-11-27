@@ -5,7 +5,7 @@ import TextProfile from "./TextProfile";
 export default function ProfileSection() {
     return(
         <>
-            <div className="flex justify-center items-center bg-slate-500 mt-40">
+            <div className="md:flex justify-center items-center mt-40 pb-40">
                 <ImgProfile 
                 imgSrc="/logo.jpeg"
                 />
