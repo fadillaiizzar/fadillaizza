@@ -1,4 +1,4 @@
-import ProfileSection from "./components/Elements/SectProfile.jsx";
+import ProfileSection from "./components/Elements/SectProfile.jsx/ProfileSection.jsx";
 import Beranda from "./components/Layouts/Beranda";
 
 function App() {
