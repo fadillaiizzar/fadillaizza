@@ -24,20 +24,24 @@ export default function Navbar() {
 
                 <BtnNav 
                 textnav="Pendidikan"
+                href="#education"
                 />
 
                 <BtnNav 
                 textnav="Keahlian"
+                href="#skill"
                 />
 
                 <BtnNav 
                 textnav="Proyek"
+                href="#proyek"
                 />
 
                 <BtnNav 
                 textnav="Sertifikat"
                 radius="rounded-r-full"
                 padx="pr-10 px-4"
+                href="#sertifikat"
                 />
             </div>
 
@@ -64,18 +68,22 @@ export default function Navbar() {
 
                     <BtnNav 
                     textnav="Pendidikan"
+                    href="#education"
                     />
 
                     <BtnNav 
                     textnav="Keahlian"
+                    href="#skill"
                     />
 
                     <BtnNav 
                     textnav="Proyek"
+                    href="#proyek"
                     />
 
                     <BtnNav 
                     textnav="Sertifikat"
+                    href="#sertifikat"
                     />
                 </div>
             </div>

@@ -2,7 +2,7 @@ export default function FindProfile() {
     return(
         <div className="flex flex-col justify-center items-center">
             <div className="mb-4">
-                <h3>Hubungi Saya Melalui :</h3>
+                <h3>hubungi saya melalui :</h3>
             </div>
 
             <div className="flex gap-8">
@@ -25,9 +25,9 @@ export default function FindProfile() {
 function ImgFind({imgFind}) {
     return(
         <>
-            <div>
+            <a href="#beranda">
                 <img src={imgFind} />
-            </div>
+            </a>
         </>
     );
 }

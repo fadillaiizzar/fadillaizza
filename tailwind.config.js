@@ -11,6 +11,11 @@ export default {
 
       backgroundImage: {
         'cream-gradient': 'radial-gradient(ellipse at top, #fff8e7 0%, #f9e1b3 40%, #f0d197 70%, #d8b973 100%)',
+        'education': "url('/back.png')",
+      },
+
+      screens: {
+        'cust': '920px',
       },
     },
   },
