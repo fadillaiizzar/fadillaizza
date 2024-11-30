@@ -8,16 +8,18 @@ export default function Navbar() {
     }
 
     return(
-        <>
-            <div className="hidden md:flex justify-center pt-10 cursor-pointer font-semibold">
+        <div className="fixed top-0 left-0 w-full z-50">
+            <div className="hidden md:flex justify-center pt-14 cursor-pointer font-semibold">
                 <BtnNav
                 textnav="Beranda"
                 radius="rounded-l-full"
                 padx="pl-10 px-4"
+                href="#beranda"
                 />
 
                 <BtnNav 
                 textnav="Profile"
+                href="#profile"
                 />
 
                 <BtnNav 
@@ -52,10 +54,12 @@ export default function Navbar() {
                 <div className="flex items-end mt-10 py-4 cursor-pointer flex-col font-semibold bg-black w-fit ml-auto pl-24 rounded-lg">
                     <BtnNav
                     textnav="Beranda"
+                    href="#beranda"
                     />
 
                     <BtnNav 
                     textnav="Profile"
+                    href="#profile"
                     />
 
                     <BtnNav 
@@ -75,6 +79,6 @@ export default function Navbar() {
                     />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
