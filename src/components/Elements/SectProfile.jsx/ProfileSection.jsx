@@ -5,7 +5,7 @@ export default function ProfileSection() {
     return(
         <div 
         id="profile"
-        className="lg:flex justify-center items-center mt-44 pt-14 md:pt-0">
+        className="lg:flex justify-center items-center mt-40 pt-32 lg:pt-0">
             <ImgProfile 
             imgSrc="/logo.jpeg"
             />
