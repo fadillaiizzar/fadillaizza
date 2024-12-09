@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function DetailBox(props) {
-    const { imgDetail = "/vite.svg" , text} = props;
+    const { imgDetail = "/vite.svg" , text , alt} = props;
     const [ showText , setShowText ] = useState(false);
     const handleClick = () => {
         setShowText(!showText)
@@ -10,7 +10,7 @@ export default function DetailBox(props) {
 
     return(
         <div className="w-48 h-48 bg-white flex items-center justify-center relative cursor-pointer rounded-lg" onClick={handleClick}>
-            <img src={imgDetail} className="w-full h-full p-10"/>
+            <img src={imgDetail} className="w-full h-full p-10" alt={`${alt}`}/>
 
             {showText && (
                 <div className="absolute bg-black opacity-70 inset-0 flex justify-center items-center rounded-lg">

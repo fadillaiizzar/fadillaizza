@@ -13,13 +13,13 @@ export default function BoxSkill() {
     };
 
     const boxDetails = [
-        { id : 1 , text : "HTML" , imgDetail : "/html.png"},
-        { id : 2 , text : "CSS" , imgDetail : "/css.png"},
-        { id : 3 , text : "JAVA SCRIPT" , imgDetail : "/javascript.png"},
-        { id : 4 , text : "REACT" , imgDetail : "/react.png"},
-        { id : 5 , text : "TAILWIND" , imgDetail : "/tailwind.png"},
-        { id : 6 , text : "GIT" , imgDetail : "/git.png"},
-        { id : 7 , text : "VITE" , imgDetail : "/vite.svg"},
+        { id : 1 , text : "HTML" , imgDetail : "/html.png" , alt : "logo html"},
+        { id : 2 , text : "CSS" , imgDetail : "/css.png" , alt : "logo css"},
+        { id : 3 , text : "JAVA SCRIPT" , imgDetail : "/javascript.png" , alt : "logo javascript"},
+        { id : 4 , text : "REACT" , imgDetail : "/react.png" , alt : "logo react"},
+        { id : 5 , text : "TAILWIND" , imgDetail : "/tailwind.png" , alt : "logo tailwind"},
+        { id : 6 , text : "GIT" , imgDetail : "/git.png" , alt : "logo git"},
+        { id : 7 , text : "VITE" , imgDetail : "/vite.svg" , alt : "logo vite"},
     ];
 
     return (
