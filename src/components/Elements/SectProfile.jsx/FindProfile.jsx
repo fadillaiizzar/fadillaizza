@@ -1,3 +1,5 @@
+import ImgFind from "./ImgFind";
+
 export default function FindProfile() {
     return(
         <div className="flex flex-col justify-center items-center">
@@ -38,10 +40,3 @@ export default function FindProfile() {
     );
 }
 
-function ImgFind({imgFind , link , alt , arialabel}) {
-    return(
-        <a href={link}  aria-label={`${arialabel}`}>
-            <img src={imgFind} className="w-16 h-16" alt={`${alt}`}/>
-        </a>
-    );
-}
