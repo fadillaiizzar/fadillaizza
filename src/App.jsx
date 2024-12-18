@@ -1,6 +1,7 @@
 import Beranda from "./components/Layouts/Beranda";
 import Education from "./components/Layouts/Education.jsx";
 import Profile from "./components/Layouts/Profile.jsx";
+import Project from "./components/Layouts/Project.jsx";
 import Skill from "./components/Layouts/Skill.jsx";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Profile />
       <Education />
       <Skill />
+      <Project />
     </div>
   );
 }

@@ -6,8 +6,9 @@ export default function BgEducation() {
             <div className="bg-education bg-cover bg-center h-[800px] cust:h-72 relative flex items-start justify-center">
                 <HeadingSatu 
                 pt = "pt-14"
-                htext = "Pendidikan"
+                htext = "Perjalanan Dalam Pendidikan"
                 />
+                
                 <div className="cust:flex gap-6 rounded-xl p-4 cust:p-6 absolute top-32 cust:top-36 bg-slate-600">
                     <BoxEducation 
                     imgBoxEdu="/smp 2 bantul.png"

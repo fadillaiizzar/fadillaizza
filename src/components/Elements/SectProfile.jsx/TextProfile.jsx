@@ -8,7 +8,7 @@ export default function TextProfile() {
                 <HeadingSatu 
                 htext = "Sekilas Tentang Saya"
                 />
-                <p className="mb-8">Halo! Saya Fadilla Izza Rahmadani, seorang pelajar dari Bantul, Yogyakarta. Saat ini, saya sedang menjalani tahun ketiga di SMKN 2 Yogyakarta, jurusan Sistem Informasi dan Jaringan Aplikasi. Dalam tiga tahun terakhir, saya secara mendalam mengeksplorasi dunia teknologi informasi, dengan fokus utama pada pengembangan web</p>
+                <p className="mb-8">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi dan Jaringan Aplikasi yang berdomisili di Bantul, Yogyakarta. Saat ini, saya secara mendalam mengeksplorasi dunia teknologi informasi, dengan fokus utama pada pengembangan web</p>
 
                 <FindProfile />
             </div>

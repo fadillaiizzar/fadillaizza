@@ -6,7 +6,7 @@ export default function TextSkill() {
             <HeadingSatu 
             mdMb = "mb-24"
             pt = "pt-28"
-            htext = "Keahlian"
+            htext = "Keahlian Dalam Setiap Proyek"
             />
         </div>
     );
