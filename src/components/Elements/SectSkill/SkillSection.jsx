@@ -3,7 +3,7 @@ import TextSkill from "./TextSkill";
 
 export default function SkillSection() {
     return(
-        <div id="skill" className="pt-16">
+        <div id="skill">
             <TextSkill />
             <BoxSkill />
         </div>

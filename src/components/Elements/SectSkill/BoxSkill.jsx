@@ -31,7 +31,7 @@ export default function BoxSkill() {
             <div ref={scrollContainer} className="relative flex justify-start items-center overflow-hidden mx-4 sm:mx-8 w-full">
                 <div className="flex justify-center items-center gap-5 py-4 min-w-max">
                     {boxDetails.map ((item) => (
-                        <DetailBox key={item.id} text={item.text} imgDetail={item.imgDetail}/>
+                        <DetailBox key={item.id} text={item.text} imgDetail={item.imgDetail} alt={item.alt}/>
                     ))}
                 </div>
             </div>

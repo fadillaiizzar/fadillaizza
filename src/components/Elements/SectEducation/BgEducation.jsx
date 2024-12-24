@@ -3,13 +3,15 @@ import HeadingSatu from "../Text/HeadingSatu";
 export default function BgEducation() {
     return(
         <>
-            <div className="bg-education bg-cover bg-center h-[800px] cust:h-72 relative flex items-start justify-center">
+            <div className="bg-education bg-cover bg-center h-[820px] cust:h-[560px] relative flex items-start text-center justify-center">
                 <HeadingSatu 
                 pt = "pt-14"
                 htext = "Perjalanan Dalam Pendidikan"
+                px = "px-5"
+                pb = "sm:pb-10"
                 />
                 
-                <div className="cust:flex gap-6 rounded-xl p-4 cust:p-6 absolute top-32 cust:top-36 bg-slate-600">
+                <div className="cust:flex gap-6 rounded-xl p-4 cust:p-6 absolute top-32 cust:top-36 bg-slate-600 mt-10 sm:mt-0">
                     <BoxEducation 
                     imgBoxEdu="/smp 2 bantul.png"
                     textEdu="SMP Negeri 2 Bantul"
@@ -31,8 +33,6 @@ export default function BgEducation() {
                     />
                 </div>
             </div>
-
-            <div className="h-0 cust:h-52"></div>
         </>
     );
 }
