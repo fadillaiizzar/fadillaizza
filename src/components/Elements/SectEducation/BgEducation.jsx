@@ -3,7 +3,7 @@ import HeadingSatu from "../Text/HeadingSatu";
 export default function BgEducation() {
     return(
         <>
-            <div className="bg-education bg-cover bg-center h-[820px] cust:h-[560px] relative flex items-start text-center justify-center">
+            <div className="h-[820px] cust:h-[560px] relative flex items-start text-center justify-center">
                 <HeadingSatu 
                 pt = "pt-14"
                 htext = "Perjalanan Dalam Pendidikan"
@@ -11,7 +11,7 @@ export default function BgEducation() {
                 pb = "sm:pb-10"
                 />
                 
-                <div className="cust:flex gap-6 rounded-xl p-4 cust:p-6 absolute top-32 cust:top-36 bg-slate-600 mt-10 sm:mt-0">
+                <div className="cust:flex gap-6 rounded-t-3xl p-4 cust:p-6 absolute top-32 cust:top-36  mt-10 sm:mt-0">
                     <BoxEducation 
                     imgBoxEdu="/smp 2 bantul.png"
                     textEdu="SMP Negeri 2 Bantul"
@@ -30,6 +30,8 @@ export default function BgEducation() {
                     width="w-32"
                     height="h-32"
                     alt="logo smk 2 yogyakarta"
+                    rb="rounded-bl-3xl"
+                    rt="rounded-tr-3xl"
                     />
                 </div>
             </div>
@@ -37,9 +39,9 @@ export default function BgEducation() {
     );
 }
 
-function BoxEducation({imgBoxEdu , textEdu , textLulus , mb , width , height , alt}) {
+function BoxEducation({imgBoxEdu , textEdu , textLulus , mb , width , height , alt , rb = "rounded-br-3xl" , rt = "rounded-tl-3xl"}) {
     return(
-        <div className={`bg-gray-400 py-8 w-72 sm:w-96 flex flex-col justify-center items-center rounded-lg ${mb} cust:mb-0`}>
+        <div className={`bg-yellow-100 py-8 w-72 sm:w-[430px] sm:h-[320px] flex flex-col justify-center items-center ${rt} ${rb} ${mb} cust:mb-0`}>
             <img src={imgBoxEdu} className= {`${width} ${height} mb-7 object-cover`} alt= {`${alt}`} />
             <p className="mb-2 text-center font-semibold">{textEdu}</p>
             <p>{textLulus}</p>
