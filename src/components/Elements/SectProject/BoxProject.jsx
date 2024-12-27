@@ -13,6 +13,7 @@ export default function BoxProject() {
                 tools3="JS"
                 link="https://socialse.vercel.app/"
                 />
+
                 <DetailProject 
                 text="Luxury Room"
                 penjelasan="Mempermudah Anda menyewa apartemen dengan layanan terbaik"
@@ -22,6 +23,7 @@ export default function BoxProject() {
                 bg=""
                 link="https://luxuryroom.vercel.app/"
                 />
+                
                 <DetailProject 
                 text="Berlian Tiga"
                 penjelasan="Membuat dan mencetak nota pembelian pelanggan pada bengkel mobil"
@@ -29,7 +31,7 @@ export default function BoxProject() {
                 tools1="REACT"
                 tools2="TAILWIND"
                 bg=""
-                link="https://notad.vercel.app/"
+                link="https://berliantiga.vercel.app/"
                 />
             </div>
         </div>
