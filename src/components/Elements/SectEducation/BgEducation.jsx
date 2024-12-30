@@ -41,7 +41,7 @@ export default function BgEducation() {
 
 function BoxEducation({imgBoxEdu , textEdu , textLulus , mb , width , height , alt , rb = "rounded-br-3xl" , rt = "rounded-tl-3xl"}) {
     return(
-        <div className={`bg-yellow-100 py-8 w-72 sm:w-[430px] sm:h-[320px] flex flex-col justify-center items-center ${rt} ${rb} ${mb} cust:mb-0`}>
+        <div className={`bg-pink-100 py-8 w-72 sm:w-[430px] sm:h-[320px] flex flex-col justify-center items-center ${rt} ${rb} ${mb} cust:mb-0`}>
             <img src={imgBoxEdu} className= {`${width} ${height} mb-7 object-cover`} alt= {`${alt}`} />
             <p className="mb-2 text-center font-semibold">{textEdu}</p>
             <p>{textLulus}</p>
