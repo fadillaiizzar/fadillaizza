@@ -19,7 +19,7 @@ export default function BoxSkill() {
         { id : 4 , text : "REACT" , imgDetail : "/react.png" , alt : "logo react"},
         { id : 5 , text : "TAILWIND" , imgDetail : "/tailwind.png" , alt : "logo tailwind"},
         { id : 6 , text : "GIT" , imgDetail : "/git.png" , alt : "logo git"},
-        { id : 7 , text : "VITE" , imgDetail : "/vite.svg" , alt : "logo vite"},
+        { id : 7 , text : "FIGMA" , imgDetail : "/figma.png" , alt : "logo figma"},
     ];
 
     return (

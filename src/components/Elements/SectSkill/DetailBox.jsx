@@ -9,7 +9,7 @@ export default function DetailBox(props) {
 
 
     return(
-        <div className="w-48 h-48 bg-yellow-100 flex items-center justify-center relative cursor-pointer rounded-lg" onClick={handleClick}>
+        <div className="w-48 h-48 bg-pink-100 flex items-center justify-center relative cursor-pointer rounded-lg" onClick={handleClick}>
             <img src={imgDetail} className="w-full h-full p-10" alt={`${alt}`}/>
 
             {showText && (

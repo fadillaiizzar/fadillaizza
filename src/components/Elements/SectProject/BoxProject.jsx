@@ -10,7 +10,6 @@ export default function BoxProject() {
                 imgProject="/socialse.png"
                 tools1="HTML"
                 tools2="TAILWIND"
-                tools3="JS"
                 link="https://socialse.vercel.app/"
                 />
 
@@ -20,7 +19,6 @@ export default function BoxProject() {
                 imgProject="/luxuryroom.png"
                 tools1="REACT"
                 tools2="TAILWIND"
-                bg=""
                 link="https://luxuryroom.vercel.app/"
                 />
                 
@@ -30,7 +28,6 @@ export default function BoxProject() {
                 imgProject="/nota berlian tiga.png"
                 tools1="REACT"
                 tools2="TAILWIND"
-                bg=""
                 link="https://berliantiga.vercel.app/"
                 />
             </div>

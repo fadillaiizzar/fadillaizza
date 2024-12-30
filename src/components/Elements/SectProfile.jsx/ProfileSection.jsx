@@ -7,7 +7,7 @@ export default function ProfileSection() {
         id="profile"
         className="lg:flex justify-center items-center pt-40 pb-10">
             <ImgProfile 
-            imgSrc="/logo.jpeg"
+            imgSrc="/profile dilla.jpeg"
             />
             <TextProfile />
         </div>
