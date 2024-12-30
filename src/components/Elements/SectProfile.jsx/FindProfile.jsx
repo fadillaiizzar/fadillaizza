@@ -1,8 +1,19 @@
 import ImgFind from "./ImgFind";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import React, { useEffect } from "react";
 
 export default function FindProfile() {
+    useEffect(() => {
+        AOS.init({
+        duration: 1200, 
+        easing: "ease-in-out",
+        once: true,
+        });
+    }, []);
+
     return(
-        <div className="flex flex-col justify-center items-center">
+        <div data-aos="zoom-in-up" className="flex flex-col justify-center items-center">
             <div className="mb-4">
                 <p>hubungi saya melalui :</p>
             </div>

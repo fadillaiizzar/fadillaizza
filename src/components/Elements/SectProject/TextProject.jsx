@@ -1,8 +1,19 @@
 import HeadingSatu from "../Text/HeadingSatu";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import React, { useEffect } from "react";
 
 export default function TextProject() {
+    useEffect(() => {
+        AOS.init({
+        duration: 1200, 
+        easing: "ease-in-out",
+        once: true,
+        });
+    }, []);
+    
     return(
-        <div className="mb-12">
+        <div data-aos="zoom-in-up" className="mb-12">
             <div className="flex justify-center text-center">
                 <HeadingSatu 
                 mdMb = "mb-3"

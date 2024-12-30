@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import DetailBox from "./DetailBox";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import React, { useEffect } from "react";
 
 export default function BoxSkill() {
     const scrollContainer = useRef(null);
@@ -22,8 +25,16 @@ export default function BoxSkill() {
         { id : 7 , text : "FIGMA" , imgDetail : "/figma.png" , alt : "logo figma"},
     ];
 
+    useEffect(() => {
+        AOS.init({
+        duration: 1200, 
+        easing: "ease-in-out",
+        once: true,
+        });
+    }, []);
+
     return (
-        <div className="relative flex justify-center items-center px-14">
+        <div data-aos="zoom-in-up" className="relative flex justify-center items-center px-14">
             <button onClick={scrollLeft} className="absolute text-white left-3 sm:left-5 w-12 h-12 bg-gray-600 rounded-full hover:bg-gray-700 z-10">
                 {"<"}
             </button>

@@ -1,17 +1,30 @@
 import HeadingSatu from "../Text/HeadingSatu";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import React, { useEffect } from "react";
 
 export default function BgEducation() {
+    useEffect(() => {
+        AOS.init({
+        duration: 1200, 
+        easing: "ease-in-out",
+        once: true,
+        });
+    }, []);
+
     return(
         <>
             <div className="h-[820px] cust:h-[560px] relative flex items-start text-center justify-center">
-                <HeadingSatu 
-                pt = "pt-14"
-                htext = "Perjalanan Dalam Pendidikan"
-                px = "px-5"
-                pb = "sm:pb-10"
-                />
+                <div data-aos="zoom-in-up">
+                    <HeadingSatu 
+                    pt = "pt-14"
+                    htext = "Perjalanan Dalam Pendidikan"
+                    px = "px-5"
+                    pb = "sm:pb-10"
+                    />
+                </div>
                 
-                <div className="cust:flex gap-6 rounded-t-3xl p-4 cust:p-6 absolute top-32 cust:top-36  mt-10 sm:mt-0">
+                <div data-aos="zoom-in-up" className="cust:flex gap-6 rounded-t-3xl p-4 cust:p-6 absolute top-32 cust:top-36  mt-10 sm:mt-0">
                     <BoxEducation 
                     imgBoxEdu="/smp 2 bantul.png"
                     textEdu="SMP Negeri 2 Bantul"

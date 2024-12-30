@@ -20,7 +20,7 @@ export default function DetailProject(props) {
                 </div>
             </div>
 
-            <button onClick={() => window.open(link, "_blank")} className="w-full text-sm bg-black text-yellow-100  mt-3 p-1 rounded-lg">BROWSE</button>
+            <button onClick={() => window.open(link, "_blank")} className="w-full text-sm bg-black text-pink-100 mt-3 p-1 rounded-lg">BROWSE</button>
         </div>
     );
 }
