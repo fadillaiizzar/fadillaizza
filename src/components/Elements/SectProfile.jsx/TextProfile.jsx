@@ -21,7 +21,7 @@ export default function TextProfile() {
                     htext = "Sekilas Tentang Saya"
                     />
                 </div>
-                <p data-aos="zoom-in-up" className="mb-8">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi dan Jaringan Aplikasi yang berdomisili Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi informasi, dengan fokus utama pada pengembangan web</p>
+                <p data-aos="zoom-in-up" className="mb-8">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi dan Jaringan Aplikasi yang berdomisili di Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi informasi, dengan fokus utama pada pengembangan web</p>
 
                 <FindProfile />
             </div>
