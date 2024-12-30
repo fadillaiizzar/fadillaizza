@@ -20,13 +20,6 @@ export default function FindProfile() {
 
             <div className="flex">
                 <ImgFind 
-                imgFind="/whatssapp.png"
-                link="https://wa.me/6285713685277?text=Hallo Dilla!"
-                alt="ikon whatsapp"
-                arialabel="Lihat Profil Whatsapp Fadilla Izza"
-                />
-
-                <ImgFind 
                 imgFind="/instagram.png"
                 link="https://www.instagram.com/fadillaiizzar/"
                 alt="ikon instagram"
