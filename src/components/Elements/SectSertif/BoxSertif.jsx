@@ -13,12 +13,12 @@ export default function BoxSertif() {
     }, []);
 
     return(
-        <div>
+        <div className="sm:px-0 px-2">
             <div data-aos="zoom-in-up">
                 <DetailSertif 
                 imgSertif="/harisenin.jpeg"
                 text="HARISENIN - NOVEMBER 2024"
-                textpenjelas="Selama mengikuti Harisenin Bookil Bootcamp Kilat sebagai Frontend Developer, saya memperdalam pengetahuan tentang konsep-konsep penting dalam pengembangan web yang memperluas wawasan saya tentang cara kerja dan best practices dalam membangun aplikasi web"
+                textpenjelas="Selama mengikuti Harisenin Bookil Bootcamp Kilat sebagai Frontend Developer, saya memperdalam pengetahuan tentang konsep - konsep penting dalam pengembangan web yang memperluas wawasan saya tentang cara kerja dan best practices dalam membangun aplikasi web"
                 />
             </div>
 
@@ -26,7 +26,7 @@ export default function BoxSertif() {
                 <DetailSertif 
                 imgSertif="/dibimbing.jpeg"
                 text="DIBIMBING - JULI 2024"
-                textpenjelas="Dalam pelatihan Dibimbing DSF29 - Frontend Developer, saya mendapatkan materi tentang bagaimana menjadi seorang frontend web developer serta cara-cara efektif untuk mengembangkan aplikasi web. Pelatihan ini memberikan pemahaman yang lebih luas mengenai industri pengembangan web"
+                textpenjelas="Dalam pelatihan Dibimbing DSF29 - Frontend Developer, saya mendapatkan materi tentang bagaimana menjadi seorang frontend web developer serta cara - cara efektif untuk mengembangkan aplikasi web. Pelatihan ini memberikan pemahaman yang lebih luas mengenai industri pengembangan web"
                 />
             </div>
 

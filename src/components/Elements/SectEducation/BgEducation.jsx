@@ -29,22 +29,22 @@ export default function BgEducation() {
                     imgBoxEdu="/smk 2 yogyakarta.png"
                     textEdu="SMK Negeri 2 Yogyakarta"
                     textLulus="2022 - Sekarang"
-                    mb="mb-0"
+                    mb="mb-7"
                     width="w-32"
                     height="h-32"
                     alt="logo smk 2 yogyakarta"
-                    rb="rounded-bl-3xl"
-                    rt="rounded-tr-3xl"
                     />
                     
                     <BoxEducation 
                     imgBoxEdu="/smp 2 bantul.png"
                     textEdu="SMP Negeri 2 Bantul"
                     textLulus="2019 - 2022"
-                    mb="mb-7"
+                    mb="mb-0"
                     width="w-28"
                     height="h-28"
                     alt="logo smp 2 bantul"
+                    rb="rounded-bl-3xl"
+                    rt="rounded-tr-3xl"
                     />
                 </div>
             </div>

@@ -19,7 +19,7 @@ export default function TextSertif() {
             mdMb = "mb-3"
             />
 
-            <p className="flex justify-center text-center mb-14">Saya telah mengikuti pelatihan untuk mengeksplorasi dasar - dasar pengembangan web, memperluas wawasan, serta meningkatkan keterampilan teknis yang diperlukan dalam pengembangan aplikasi berbasis web</p>
+            <p className="flex justify-center text-center mb-14">Saya telah mengikuti pelatihan untuk mengeksplor dasar - dasar pengembangan web, memperluas wawasan, serta meningkatkan keterampilan teknis yang diperlukan dalam pengembangan aplikasi berbasis web</p>
         </div>
     );
 }
