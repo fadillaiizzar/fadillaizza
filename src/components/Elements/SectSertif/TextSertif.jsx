@@ -15,11 +15,11 @@ export default function TextSertif() {
     return(
         <div data-aos="zoom-in-up">
             <HeadingSatu 
-            htext="Sertifikat Pelatihan"
+            htext="Eksplorasi Kompetensi Dasar"
             mdMb = "mb-3"
             />
 
-            <p className="flex justify-center text-center mb-14">Sertifikat pelatihan menunjukkan bahwa saya telah mengikuti pelatihan yang memperluas wawasan saya tentang frontend web development, serta memberikan pengetahuan teknis dan soft skills yang penting untuk pengembangan aplikasi web</p>
+            <p className="flex justify-center text-center mb-14">Saya telah mengikuti pelatihan untuk mengeksplorasi dasar - dasar pengembangan web, memperluas wawasan, serta meningkatkan keterampilan teknis yang diperlukan dalam pengembangan aplikasi berbasis web</p>
         </div>
     );
 }

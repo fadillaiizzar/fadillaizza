@@ -18,23 +18,13 @@ export default function BgEducation() {
                 <div data-aos="zoom-in-up">
                     <HeadingSatu 
                     pt = "pt-14"
-                    htext = "Perjalanan Dalam Pendidikan"
+                    htext = "Rangkaian Proses Pendidikan"
                     px = "px-5"
                     pb = "sm:pb-10"
                     />
                 </div>
                 
                 <div data-aos="zoom-in-up" className="cust:flex gap-6 rounded-t-3xl p-4 cust:p-6 absolute top-32 cust:top-36  mt-10 sm:mt-0">
-                    <BoxEducation 
-                    imgBoxEdu="/smp 2 bantul.png"
-                    textEdu="SMP Negeri 2 Bantul"
-                    textLulus="2019 - 2022"
-                    mb="mb-7"
-                    width="w-28"
-                    height="h-28"
-                    alt="logo smp 2 bantul"
-                    />
-
                     <BoxEducation 
                     imgBoxEdu="/smk 2 yogyakarta.png"
                     textEdu="SMK Negeri 2 Yogyakarta"
@@ -45,6 +35,16 @@ export default function BgEducation() {
                     alt="logo smk 2 yogyakarta"
                     rb="rounded-bl-3xl"
                     rt="rounded-tr-3xl"
+                    />
+                    
+                    <BoxEducation 
+                    imgBoxEdu="/smp 2 bantul.png"
+                    textEdu="SMP Negeri 2 Bantul"
+                    textLulus="2019 - 2022"
+                    mb="mb-7"
+                    width="w-28"
+                    height="h-28"
+                    alt="logo smp 2 bantul"
                     />
                 </div>
             </div>

@@ -16,9 +16,9 @@ export default function BoxSertif() {
         <div>
             <div data-aos="zoom-in-up">
                 <DetailSertif 
-                imgSertif="/revou.jpeg"
-                text="REVOU - JULI 2024"
-                textpenjelas="Selama 2 minggu pelatihan di RevoU Fundamental Course, saya mempelajari frontend web development seperti HTML, CSS, JavaScript dan mengerjakan tes serta mini proyek untuk membuat halaman web responsif. Pelatihan ini memperdalam keterampilan praktis saya"
+                imgSertif="/harisenin.jpeg"
+                text="HARISENIN - NOVEMBER 2024"
+                textpenjelas="Selama mengikuti Harisenin Bookil Bootcamp Kilat sebagai Frontend Developer, saya memperdalam pengetahuan tentang konsep-konsep penting dalam pengembangan web yang memperluas wawasan saya tentang cara kerja dan best practices dalam membangun aplikasi web"
                 />
             </div>
 
@@ -31,12 +31,12 @@ export default function BoxSertif() {
             </div>
 
             <div data-aos="zoom-in-up">
-            <DetailSertif 
-            imgSertif="/harisenin.jpeg"
-            text="HARISENIN - NOVEMBER 2024"
-            textpenjelas="Selama mengikuti Harisenin Bookil Bootcamp Kilat sebagai Frontend Developer, saya memperdalam pengetahuan tentang konsep-konsep penting dalam pengembangan web yang memperluas wawasan saya tentang cara kerja dan best practices dalam membangun aplikasi web"
-            />
-            </div>
+                <DetailSertif 
+                imgSertif="/revou.jpeg"
+                text="REVOU - JULI 2024"
+                textpenjelas="Selama 2 minggu pelatihan di RevoU Fundamental Course, saya mempelajari frontend web development seperti HTML, CSS, JavaScript dan mengerjakan tes serta mini proyek untuk membuat halaman web responsif. Pelatihan ini memperdalam keterampilan praktis saya"
+                />
+            </div>            
         </div>
     );
 }
