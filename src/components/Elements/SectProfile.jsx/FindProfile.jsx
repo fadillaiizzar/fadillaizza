@@ -20,24 +20,24 @@ export default function FindProfile() {
 
             <div className="flex">
                 <ImgFind 
-                imgFind="/instagram.png"
-                link="https://www.instagram.com/fadillaiizzar/"
-                alt="ikon instagram"
-                arialabel="Lihat Profil Instagram Fadilla Izza"
+                    imgFind="/instagram.png"
+                    link="https://www.instagram.com/fadillaiizzar/"
+                    alt="ikon instagram"
+                    arialabel="Lihat Profil Instagram Fadilla Izza"
                 />
 
                 <ImgFind 
-                imgFind="/github.png"
-                link="https://github.com/fadillaiizzar"
-                alt="ikon github"
-                arialabel="Lihat Profil Github Fadilla Izza"
+                    imgFind="/github.png"
+                    link="https://github.com/fadillaiizzar"
+                    alt="ikon github"
+                    arialabel="Lihat Profil Github Fadilla Izza"
                 />
 
                 <ImgFind 
-                imgFind="/linkedin.png"
-                link="https://www.linkedin.com/in/fadilla-izza-rahmadani-6b3b3331a/"
-                alt="ikon linkedin"
-                arialabel="Lihat Profil Linkedin Fadilla Izza"
+                    imgFind="/linkedin.png"
+                    link="https://www.linkedin.com/in/fadilla-izza-rahmadani-6b3b3331a/"
+                    alt="ikon linkedin"
+                    arialabel="Lihat Profil Linkedin Fadilla Izza"
                 />
             </div>
         </div>

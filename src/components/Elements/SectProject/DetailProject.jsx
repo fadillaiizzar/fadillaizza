@@ -2,10 +2,8 @@ export default function DetailProject(props) {
     const { text , penjelasan , imgProject , tools1 , tools2 , link } = props;
 
     return(
-        <div className="bg-pink-100 p-4 rounded-lg">
-            <div className="font-semibold mb-1">
-                {text}
-            </div>
+        <div className="bg-pink-100 p-4 rounded-lg shadow-2xl">
+            <div className="font-semibold mb-1">{text}</div>
 
             <p className="mb-4">{penjelasan}</p>
 

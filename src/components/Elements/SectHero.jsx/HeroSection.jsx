@@ -6,7 +6,7 @@ export default function HeroSection() {
         <div className="flex flex-col mt-36 px-7 py-5 items-center text-center">
             <TextHero />
             <BtnHero
-            text="Selengkapnya"
+                text="Selengkapnya"
             />
         </div>
     );

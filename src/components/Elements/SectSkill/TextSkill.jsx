@@ -15,10 +15,10 @@ export default function TextSkill() {
     return(
         <div data-aos="zoom-in-up" className="flex justify-center items-center px-5">
             <HeadingSatu 
-            mdMb = "mb-24"
-            pt = "pt-36"
-            htext = "Keahlian Dalam Setiap Proyek"
-            px = "px-5"
+                mdMb = "mb-24"
+                pt = "pt-36"
+                htext = "Keahlian Dalam Setiap Proyek"
+                px = "px-5"
             />
         </div>
     );

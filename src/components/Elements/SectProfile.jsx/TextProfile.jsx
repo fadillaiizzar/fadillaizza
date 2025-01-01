@@ -18,11 +18,10 @@ export default function TextProfile() {
             <div className="flex flex-col text-center lg:w-2/3 py-10 px-5 sm:px-14 lg:pl-0 lg:pr-24">
                 <div data-aos="zoom-in-up">
                     <HeadingSatu 
-                    htext = "Sekilas Tentang Saya"
+                        htext = "Sekilas Tentang Saya"
                     />
                 </div>
                 <p data-aos="zoom-in-up" className="mb-8">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi dan Jaringan Aplikasi yang berdomisili di Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi informasi, dengan fokus utama pada pengembangan web</p>
-
                 <FindProfile />
             </div>
         </>

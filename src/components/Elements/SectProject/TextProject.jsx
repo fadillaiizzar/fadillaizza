@@ -16,9 +16,9 @@ export default function TextProject() {
         <div data-aos="zoom-in-up" className="mb-12">
             <div className="flex justify-center text-center">
                 <HeadingSatu 
-                mdMb = "mb-3"
-                pt = "pt-24"
-                htext="Perjalanan Proyek Digital"
+                    mdMb = "mb-3"
+                    pt = "pt-24"
+                    htext="Perjalanan Proyek Digital"
                 />
             </div>
 

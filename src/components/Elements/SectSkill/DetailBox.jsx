@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 export default function DetailBox(props) {
-    const { imgDetail = "/vite.svg" , text , alt} = props;
+    const { imgDetail , alt , text } = props;
+
     const [ showText , setShowText ] = useState(false);
+
     const handleClick = () => {
         setShowText(!showText)
     }
-
 
     return(
         <div className="w-48 h-48 bg-pink-100 flex items-center justify-center relative cursor-pointer rounded-lg" onClick={handleClick}>
